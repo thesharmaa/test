@@ -1,0 +1,8 @@
+Hibernate Architecture
+Hibernate is an ORM framework with a layered architecture that helps the user to operate without having to know
+the underlying APIs. It also makes use of the database and configuration data to provide persistence services to
+the application.
+There are basically 3 layers in this architecture:-
+Application Layer
+Hibernate Core Layer
+Database Layer
