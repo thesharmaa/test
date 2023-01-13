@@ -1,0 +1,16 @@
+Maven is a powerful project management tool that is based on POM (project object model). It is used for projects
+build, dependency and documentation.
+Dependency is just another archive—JAR, ZIP, and so on—which our current project needs in order
+to compile, build, test, and run. These project dependencies are collectively specified in the pom. xml file,
+inside of a <dependencies> tag.
+
+Problem without Maven
+-Adding set of Jars in each project: We need to add set of jarfiles in each project. It must include all the dependencies of jars also.
+-Building and Deploying the project: We must have to build and deploy the project so that it may work.
+
+Why Maven? 
+Maven provides Developers with ease of :
+-Making the build process easy
+-Providing a uniform build system
+-Providing quality project information
+-Encouraging better development practices
