@@ -1,0 +1,4 @@
+It is a Java specification that gives some functionality and standard to ORM tools.
+It is considered as a link between an object-oriented model and a relational database system. As it is a specification of Java, JPA does not conduct any functioning by itself. Therefore, it needs implementation. Hence, for data persistence ORM tools like Hibernate implements JPA specifications.
+JPA is only a specification, it is not an implementation.
+It is a set of rules and guidelines to set interfaces for implementing object-relational mapping, .
