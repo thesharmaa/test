@@ -1,0 +1,61 @@
+Q1.What is Database?
+Database is a organized collection of interrelated data or structured collection of data.
+So as store and mainatin the data in a secure and easy retrieval manner.
+Processiong the data according to bussiness logic rule.
+Presenting the data in a user-understandable format.
+
+Q2. What is the difference between SQL and MySQL?
+SQL is a standard language which stands for Structured Query Language based on the English language	
+MySQL is a database management system.
+
+SQL is the core of the relational database which is used for accessing and managing database	
+MySQL is an RDMS (Relational Database Management System) such as SQL Server, Informix etc.
+
+
+Q3. What are the different subsets of SQL?
+Data Definition Language (DDL) – create, alter(add, modify, drop, change), drop, truncate, rename
+Data Manipulation Language(DML) – insert, update, delete
+Data Retrieval Language(DRL) - select.
+Transaction Control Language (TCL) - commit, rollback, savepoint
+Data Control Language(DCL) – Grant, Revoke 
+
+Q4. What is DBMS?
+DBMS is a software which is used to manage the database. It provides an interface to perform
+various operations like database creation, table creation, storing, updating data and a lot more.
+It contains ACID properties which maintain data in a healthu state in case of failure.
+
+Q5.Difference between RDBMS & DBMS?
+ 
+DBMS                                             RDBMS
+1.Stores data as a file.                         1. Stores data in a table form.
+2.DBMS cannot be Normalized.                     2.RDBMS can be Normalized .
+3.It uses file systems to store                  3.Data are stored in table form  
+  data, so there is no relation                    So a relation will also be stored
+  between data.                                    in table form.
+4.Ex: file systems, XML                          4.Ex: MySQL, Postgress, Oracle DB etc.
+5. It is slower for large amounts of data        5.It is speedy due to the relational approach
+
+Q6. Why RDBMS is used?
+It is used to overcome the problem of storing the data in DBMS such as: 
+Flat files problems---
+1.Data Maintainence (Possibility of lakhs and crores of records)
+2.Data Redundancy (Duplicate records)
+3.Data Integrity (Change in one place doesnt affect at other place)
+4.Security (Anyone can open)
+5.Data Retrieval (From crores of data)
+
+
+Q7. Explain the types of SQL joins.
+SQL Join statements is used to combine rows of data from two or more tables based on a common column between them.
+
+-- Inner Join - This statements returns all the rows from multiples tables as long as conditions are met.
+-- Left Join  - This statements returns all the rows from left table & matching rows from right table.
+-- Right Join  - This statements returns all the rows from right table & matching rows from left table.
+-- Full Join  - This statements returns all the rows when thre is a match in either left or right table.
+
+Q8.What is constraints and types?
+It prevents invalid data into our table
+-Not Null.
+-Unique.
+-Primary Key.
+-Foreign key.
