@@ -55,7 +55,16 @@ SQL Join statements is used to combine rows of data from two or more tables base
 
 Q8.What is constraints and types?
 It prevents invalid data into our table
--Not Null.
--Unique.
--Primary Key.
--Foreign key.
+-- Not Null - 
+-- Unique - Unique constraints ensure that all the values in a column are different.
+-- Primary Key - A primary key is used to uniquely identify all table records. 
+                 It cannot have NULL values and must contain unique values.                    
+                 Only one primary key can exist in one table, and it may have single or multiple fields, making it a composite key.
+-- Foreign key - A foreign key is an attribute that reference the primary key of some other table. 
+                 Basically, a foreign key is used to link together two tables.
+
+
+Q9. What is the difference between primary key and unique key?
+Both primary and unique keys carry unique values but a primary key cannot have a null value, while a unique key can.
+In a table, there cannot be more than one primary key, but there can be multiple unique keys.
+
