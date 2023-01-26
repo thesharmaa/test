@@ -1,0 +1,28 @@
+1. What is Thread?
+-> A thread is a lightweight subprocess, which is used to create seperate flow of execution of program with
+   other part of a program simultaneously.
+   Advantages of using thread is:
+   -> Thread shares the same address space.
+   
+   
+   
+2. What is Multithreading?
+-> A multithreading is process of executing multiple thread simultaneously. Multithreading is used to achive multitasking
+ Using multithreading consumes less memory, and increases the performance
+ Advantages of using muultithreading
+ -> Threads share the same address space.
+ ->The thread is lightweight.
+ ->The cost of communication between the processes is low.
+
+
+
+3. Difference between process and thread?
+         Process                                  Thread
+-> A Program in the execution           -> A thread is a subset of the process
+   is called the process.
+   
+-> Process are independent              -> Dependent on process.
+-> Have different address space         -> Threads contain a shared address space.
+   in memory.
+   
+-> Context switching slower.            -> Context switching faster.
