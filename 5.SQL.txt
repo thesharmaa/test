@@ -145,3 +145,17 @@ SELECT * FROM students where ROLL_NO IN (8,15,25);
 Q19. What is the difference between ‘HAVING’ CLAUSE and a ‘WHERE’ CLAUSE?
 Having Clause is only used with the GROUP BY function in a query whereas WHERE Clause is applied
 to each row before they are a part of the GROUP BY function in a query.
+
+
+
+
+Q20. What is First Normal Form?
+A table is in first normal form (1NF) if it meets the following criteria:
+1. The data are stored in a two-dimensional table.
+2. There are no repeating groups.
+
+By definition, an entity that does not have any repeating columns or data groups can be
+termed as the First Normal Form. In the First Normal Form, every column is unique.
+
+As per the rule of first normal form, an attribute (column) of a table cannot hold multiple
+values. It should hold only atomic values(cannot hold Comma seperated values).
