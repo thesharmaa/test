@@ -60,7 +60,7 @@ It prevents invalid data into our table
 -- Primary Key - A primary key is used to uniquely identify all table records. 
                  It cannot have NULL values and must contain unique values.                    
                  Only one primary key can exist in one table, and it may have single or multiple fields, making it a composite key.
--- Foreign key - A foreign key is an attribute that reference the primary key of some other table. 
+-- Foreign key - A foreign key is a column that refer the primary key of some other table. 
                  Basically, a foreign key is used to link together two tables.
 
 
@@ -68,3 +68,80 @@ Q9. What is the difference between primary key and unique key?
 Both primary and unique keys carry unique values but a primary key cannot have a null value, while a unique key can.
 In a table, there cannot be more than one primary key, but there can be multiple unique keys.
 
+
+Q10. What are some common clauses used with SELECT query in SQL?
+The following are some frequent SQL clauses used in conjunction with a SELECT query:
+
+WHERE clause: In SQL, the WHERE clause is used to filter records that are required depending on certain criteria.
+ORDER BY clause: The ORDER BY clause in SQL is used to sort data in ascending (ASC) or descending (DESC) order depending on specified field(s) (DESC).
+GROUP BY clause: GROUP BY clause in SQL is used to group entries with identical data and may be used with aggregation methods to obtain summarised database results.
+HAVING clause in SQL is used to filter records in combination with the GROUP BY clause. It is different from WHERE, since the WHERE clause cannot filter aggregated records.
+
+
+
+Q11. List the different types of relationships in SQL.
+There are different types of relations in the database:
+One-to-One – This is a connection between two tables in which each record in one table corresponds to the maximum of one record in the other.
+One-to-Many and Many-to-One – This is the most frequent connection, in which a record in one table is linked to several records in another.
+Many-to-Many – This is used when defining a relationship that requires several instances on each sides.
+
+
+
+Q12. What is the difference between DELETE and TRUNCATE statements?
+DELETE vs TRUNCATE
+
+DELETE	TRUNCATE
+Delete command is used to delete a row in a table.	Truncate is used to delete all the rows from a table.
+You can rollback data after using delete statement.	You cannot rollback data.
+It is a DML command.	It is a DDL command.
+It is slower than truncate statement.	It is faster.
+
+
+Q13. How many Aggregate functions are available in SQL?
+
+SQL provides seven (7) aggregate functions, which are given below:
+AVG(): returns the average value from specified columns.
+COUNT(): returns the number of table rows, including rows with null values.
+MAX(): returns the largest value among the group.
+MIN(): returns the smallest value among the group.
+SUM(): returns the total summed values(non-null) of the specified column.
+FIRST(): returns the first value of an expression.
+LAST(): returns the last value of an expression.
+
+
+Q14. What is the default ordering of data using the ORDER BY clause? How could it be changed?
+The ORDER BY clause in MySQL can be used without the ASC or DESC modifiers. The sort order is
+preset to ASC or ascending order when this attribute is absent from the ORDER BY clause.
+
+
+Q15. How do we use the DISTINCT statement? What is its use?
+The SQL DISTINCT keyword is combined with the SELECT query to remove all duplicate records and 
+return only unique records. There may be times when a table has several duplicate records.
+The DISTINCT clause in SQL is used to eliminate duplicates from a SELECT statement’s result set.
+
+
+Q16. What are the different operators available in SQL?
+There are three operators available in SQL, namely:
+Arithmetic Operators
+Logical Operators
+Comparison Operators
+
+Q17. What is subquery in SQL?
+A subquery is a query inside another query where a query. In a subquery, the outer query is called 
+as the main query whereas the inner query is called subquery. Subqueries are always executed first 
+and the result of the subquery is passed on to the main query. 
+
+
+Q18. What is the main difference between ‘BETWEEN’ and ‘IN’ condition operators?
+BETWEEN operator is used to display rows based on a range of values in a row whereas the IN condition
+operator is used to check for values contained in a specific set of values.
+
+ Example of BETWEEN:
+SELECT * FROM Students where ROLL_NO BETWEEN 10 AND 50;
+Example of IN:
+SELECT * FROM students where ROLL_NO IN (8,15,25);
+
+
+Q19. What is the difference between ‘HAVING’ CLAUSE and a ‘WHERE’ CLAUSE?
+Having Clause is only used with the GROUP BY function in a query whereas WHERE Clause is applied
+to each row before they are a part of the GROUP BY function in a query.
