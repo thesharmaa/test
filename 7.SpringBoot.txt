@@ -1,0 +1,31 @@
+1.What is Spring boot?
+->Sprint boot is a Java-based spring framework used for Rapid Application Development.
+->It has extra support of auto-configuration and embedded application server like tomcat, jetty, etc.
+
+
+
+2. What are the advantages of using Spring Boot?
+->Easy to understand and develop spring applications.
+->Creates stand-alone spring application with minimal configuration needed.
+->It has embedded application server such as tomcat, jetty etc
+->Absolutely no requirement for XML configuration.
+
+
+
+
+3. How does Spring Boot works?
+->Spring Boot automatically configures our application based on the dependencies we have added to 
+  the project by using annotation. The entry point of the spring boot application is the class that 
+  contains @SpringBootApplication annotation.
+
+
+
+4. Why Spring Boot over Spring?
+->Can be used to build standalone applications.
+->No need to deploy WAR files.
+->Doesn't require XML configuration.
+->Embeds Tomcat, Jetty .
+->Offers production ready features.
+->Easier to launch.
+->Easier management and customization.
+ 
