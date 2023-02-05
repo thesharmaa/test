@@ -1,7 +1,7 @@
 1.) What is Inheritance?
 -> It is a property in which one object acquires all the properties & behaviours of parent object.
 -> Inheritance is also known as IS-A relationship. 
--> The main advantage of Inheritance is code reusability and it is achieved by using 'extends; keyword.
+-> The main advantage of Inheritance is code reusability and it is achieved by using 'extends' keyword.
 -> Types : Single, Multiple, Multilevel, Hierarichal, Hybrid Inheritance out which Multiple and Hybrid is not acceptable in Java.
 
 
