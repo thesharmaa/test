@@ -1,0 +1,20 @@
+this and super keyword is used to refer the current and superclass variable respectively.
+It can be used anywhere expect static block.
+
+class A{
+   String s="Parent";
+}
+class B extends A{
+   String s = "Child";
+   
+   void m(){
+      print(s);         //Child
+      print(this.s);    //Child
+      print(super.s);   //Parent
+   }
+}
+
+
+
+Similarly, this() and super() used to refer current and superclass constructors respectively.
+Used only inside constructors as first statement only
