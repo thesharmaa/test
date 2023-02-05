@@ -1,0 +1,27 @@
+1.) What is Inheritance?
+-> It is a property in which one object acquires all the properties & behaviours of parent object.
+-> Inheritance is also known as IS-A relationship. 
+-> The main advantage of Inheritance is code reusability and it is achieved by using 'extends; keyword.
+-> Types : Single, Multiple, Multilevel, Hierarichal, Hybrid Inheritance out which Multiple and Hybrid is not acceptable in Java.
+
+
+2.) What is Abstraction?
+-> Abstraction is a process used for hiding implementation by just exposing the services which is 
+   being offered just because of security reasons.
+-> Ex : ATM GUI
+-> Advantage : Security, Without affecting end user we can change internal operation or implementation.
+
+
+3.) What is Encapsulation? 
+-> The process of grouping data members and corresponding methods into a single unit is Encapsulation.
+-> Any Java class is an example of Encapsulation.
+-> If any component follows data hiding(fields marked private) and abstraction(Methods with no body) that is said to be encapsulated component.
+
+
+4.) What is Polymorphism?
+-> Polymorphism in java is a concept by which we can perform a single action in different ways.
+-> Types : Method Overloading / Dynamic / Runtime: When there are multiple functions with the same name but different parameters then these 
+           functions are said to be overloaded.
+           
+           Method Overriding / Static / Compile-Time: If not satisfied with parent method implementation then child is allowed to redefine it then 
+           this process is known as Method Overriding.
