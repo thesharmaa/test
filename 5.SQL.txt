@@ -36,6 +36,12 @@ DBMS                                             RDBMS
 5. It is slower for large amounts of data        5.It is speedy due to the relational approach
 
 Q6. Why RDBMS is used?
+RDBMS is an extension of DBMS s/w
+Every RDBMS is a DBMS but reverse is not true.
+All the RDBMS s/w have a "DB-engine" which is the heart of the RDBMS s/w, and it is repsonsible to execute sql query
+In order to work with RDBMS we need to use SQL (structured query language), it is an interface by using which we can work with any kind of RDBMS s/w.
+Sql is a case insensetive language.
+
 It is used to overcome the problem of storing the data in DBMS such as: 
 Flat files problems---
 1.Data Maintainence (Possibility of lakhs and crores of records)
