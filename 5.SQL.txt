@@ -152,16 +152,40 @@ Q19. What is the difference between ‘HAVING’ CLAUSE and a ‘WHERE’ CLAUSE
 Having Clause is only used with the GROUP BY function in a query whereas WHERE Clause is applied
 to each row before they are a part of the GROUP BY function in a query.
 
+Q20. What is Normalization?
+Normalization is a process of organizing the data in database to avoid data
+redundancy (duplication), insertion anomaly, update anomaly & deletion anomaly. 
+
+The purpose of normalization is to maximize the efficiency of a database.
+An anomaly is something that is different from what is normal or usual
 
 
-
-Q20. What is First Normal Form?
+Q21. What is First Normal Form?
 A table is in first normal form (1NF) if it meets the following criteria:
 1. The data are stored in a two-dimensional table.
 2. There are no repeating groups.
 
-By definition, an entity that does not have any repeating columns or data groups can be
-termed as the First Normal Form. In the First Normal Form, every column is unique.
-
 As per the rule of first normal form, an attribute (column) of a table cannot hold multiple
 values. It should hold only atomic values(cannot hold Comma seperated values).
+
+
+Q22. What is Second Normal Form?
+Table is in 1NF (First normal form)
+No non-prime attribute is dependent on the proper subset of any candidate key of
+table. 
+Candidate key is a unique key to
+identify a record uniquely in a table
+but a table can have multiple
+candidate keys.
+The columns in a candidate key are called prime attributes, and a column that does not
+occur in any candidate key is called a non-prime attribute.
+
+Q23. What is Third Normal Form?
+Table should be in 1NF.
+There should be no Transitive Dependency
+
+
+Q24. Date and Time?
+The SYSDATE() function returns the current date and time. & The CURDATE() function returns the current date.
+The select date_format(sysdate(), '%d %m %Y') function formats a date as specified.
+SELECT TIMESTAMPDIFF(MONTH,'2009-05-18','2009-07-29'); 
