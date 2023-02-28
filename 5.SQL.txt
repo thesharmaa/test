@@ -189,3 +189,8 @@ Q24. Date and Time?
 The SYSDATE() function returns the current date and time. & The CURDATE() function returns the current date.
 The select date_format(sysdate(), '%d %m %Y') function formats a date as specified.
 SELECT TIMESTAMPDIFF(MONTH,'2009-05-18','2009-07-29'); 
+
+
+Q25. What is Index?
+Indexes are used to retrieve data from the database more quickly than otherwise. 
+The users cannot see the indexes, they are just used to speed up searching or retrieving.
