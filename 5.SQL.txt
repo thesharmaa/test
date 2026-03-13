@@ -17,7 +17,7 @@ Data Definition Language (DDL) – create, alter(add, modify, drop, change), dro
 Data Manipulation Language(DML) – insert, update, delete
 Data Retrieval Language(DRL) - select.
 Transaction Control Language (TCL) - commit, rollback, savepoint
-Data Control Language(DCL) – Grant, Revoke 
+Data Control Language(DCL) – Grant & Revoke 
 
 Q4. What is DBMS?
 DBMS is a software which is used to manage the database. It provides an interface to perform
